@@ -182,3 +182,13 @@ Note: As there is no database connection, You can use a JSON structure for stori
 
 ### W.I.P: 
 - Once a user registers and tries to login/ go to get all users info route, server has to be broken and have to rerun.
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+
+   [PlDb]: <https://github.com/shubham2924/nodejsAuthSystemAPI/tree/main/controllers>
+   [PlGh]: <https://github.com/shubham2924/nodejsAuthSystemAPI/tree/main/middleware>
+   [PlGd]: <https://github.com/shubham2924/nodejsAuthSystemAPI/tree/main/model>
+   [PlOd]: <https://github.com/shubham2924/nodejsAuthSystemAPI/tree/main/routes>
+   [PlMe]: <https://github.com/shubham2924/nodejsAuthSystemAPI/blob/main/index.js>
+   [PlGa]: <https://github.com/shubham2924/nodejsAuthSystemAPI/blob/main/readme.md>
