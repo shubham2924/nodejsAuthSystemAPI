@@ -1,4 +1,4 @@
-**◻Sign-up or Registration API**
+**⬜Sign-up or Registration API**
 
 * **URL**
 
@@ -28,4 +28,34 @@
 
   * **Code:** 500  <br />
     **Content:** `{ message: err.message }`
+
+
+
+**⬜Login API**
+
+* **URL**
+
+  http://localhost:5000/auth
+
+* **Method:**
+
+  `POST`
+
+
+  Request Body:
+  ```
+    {
+        "username":"john",
+        "password":"john"
+    }
+  ```
+
+* **Success Response:**
+
+  * **Code:** 201 <br />
+    **Content:** `{ user is logged in whose username is ${username}  }`
+ 
+* **Error Response:**
+
+  * **Code:** 401  <br />
 
