@@ -146,4 +146,60 @@
         "phoneno":"9135425631"
     }
   ```
+## Folder structure(Following Best Practices for designing API)
 
+.
+└── Project/
+    ├── controllers/
+    │   ├── allUsersInfoController.js
+    │   ├── authController.js
+    │   ├── changePasswordController.js
+    │   ├── logoutContoller.js
+    │   ├── ownDataController.js
+    │   ├── refreshTokenController.js
+    │   ├── registerController.js
+    │   └── updateSelfDataController.js
+    ├── middleware/
+    │   └── verifyJWT.js
+    ├── model/
+    │   └── usesrs.json
+    ├── routes/
+    │   ├── auth.js
+    │   ├── changePassword.js
+    │   ├── logout.js
+    │   ├── refresh.js
+    │   ├── register.js
+    │   ├── root.js
+    │   ├── self.js
+    │   ├── selfUpate.js
+    │   └── users.js      
+    ├── index.js
+    ├── package.json   
+    ├── package-lock.json
+    └── readme.md
+
+## Problem Statement:
+Complete User Authentication System.
+
+- Create API for new user registration(Name, email, mobile, password, profile picture), 
+
+- Create login API 
+
+- Authenticate user, 
+
+- Create an API to get the other user's info.
+
+- Create an API to get own information
+
+- Create API to update the user's info(Password will not be a part of this).
+
+- Create API to change the password.
+
+In the case of registration and login, you should generate a JWT token for the user that will be returned from the API.
+
+Besides that, remember to hash the password before you save it in the database.
+
+Note: As there is no database connection, You can use a JSON structure for storing the data.
+
+### W.I.P: 
+- Once a user registers and tries to login/ go to get all users info route, server has to be broken and have to rerun.
