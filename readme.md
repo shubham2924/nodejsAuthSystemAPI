@@ -148,35 +148,34 @@
   ```
 ## Folder structure(Following Best Practices for designing API)
 
-.
-└── Project/
-    ├── controllers/
-    │   ├── allUsersInfoController.js
-    │   ├── authController.js
-    │   ├── changePasswordController.js
-    │   ├── logoutContoller.js
-    │   ├── ownDataController.js
-    │   ├── refreshTokenController.js
-    │   ├── registerController.js
-    │   └── updateSelfDataController.js
-    ├── middleware/
-    │   └── verifyJWT.js
-    ├── model/
-    │   └── usesrs.json
-    ├── routes/
-    │   ├── auth.js
-    │   ├── changePassword.js
-    │   ├── logout.js
-    │   ├── refresh.js
-    │   ├── register.js
-    │   ├── root.js
-    │   ├── self.js
-    │   ├── selfUpate.js
-    │   └── users.js      
-    ├── index.js
-    ├── package.json   
-    ├── package-lock.json
-    └── readme.md
+Project/
+├── controllers/
+│   ├── allUsersInfoController.js
+│   ├── authController.js
+│   ├── changePasswordController.js
+│   ├── logoutContoller.js
+│   ├── ownDataController.js
+│   ├── refreshTokenController.js
+│   ├── registerController.js
+│   └── updateSelfDataController.js
+├── middleware/
+│   └── verifyJWT.js
+├── model/
+│   └── usesrs.json
+├── routes/
+│   ├── auth.js
+│   ├── changePassword.js
+│   ├── logout.js
+│   ├── refresh.js
+│   ├── register.js
+│   ├── root.js
+│   ├── self.js
+│   ├── selfUpate.js
+│   └── users.js      
+├── index.js
+├── package.json   
+├── package-lock.json
+└── readme.md
 
 ## Problem Statement:
 Complete User Authentication System.
