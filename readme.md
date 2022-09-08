@@ -148,34 +148,14 @@
   ```
 ## Folder structure(Following Best Practices for designing API)
 
-Project/
-├── controllers/
-│   ├── allUsersInfoController.js
-│   ├── authController.js
-│   ├── changePasswordController.js
-│   ├── logoutContoller.js
-│   ├── ownDataController.js
-│   ├── refreshTokenController.js
-│   ├── registerController.js
-│   └── updateSelfDataController.js
-├── middleware/
-│   └── verifyJWT.js
-├── model/
-│   └── usesrs.json
-├── routes/
-│   ├── auth.js
-│   ├── changePassword.js
-│   ├── logout.js
-│   ├── refresh.js
-│   ├── register.js
-│   ├── root.js
-│   ├── self.js
-│   ├── selfUpate.js
-│   └── users.js      
-├── index.js
-├── package.json   
-├── package-lock.json
-└── readme.md
+| Folder/files | Link |
+| ------ | ------ |
+| controllers | [controllers/][PlDb] |
+| middleware | [middleware/][PlGh] |
+| model/databse | [model/users.json][PlGd] |
+| routes | [routes][PlOd] |
+| index | [index.js][PlMe] |
+| readme | [readme.md][PlGa] |
 
 ## Problem Statement:
 Complete User Authentication System.
