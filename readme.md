@@ -1,4 +1,4 @@
-**Sign-up or Registration API**
+**◻Sign-up or Registration API**
 
 * **URL**
 
@@ -8,8 +8,6 @@
 
   `POST`
 
-
-* **Data Params**
 
   Request Body:
   ```
